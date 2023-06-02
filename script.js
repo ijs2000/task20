@@ -40,6 +40,7 @@ function createcountry({ name, flag, code, capital, region, population,latitude,
 </div>
 </div>
 `
+}
 function block(lat,lng,name){
 
   var WAPI = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=06e423ec0af839c485470951f60c3f6b`
